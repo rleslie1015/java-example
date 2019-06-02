@@ -5,6 +5,8 @@ public class Main
     //running first java program in intellij!
     public static void main(String[] args)
     {
-        System.out.println("Running...");
+        Greeter greeter = new Greeter();
+        System.out.println(greeter.sayHello());
+        System.out.println(greeter.sayHello("Lambda"));
     }
 }
